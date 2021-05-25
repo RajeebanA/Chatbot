@@ -1,0 +1,133 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What help you provide?",
+                "How you can be helpful?"
+            ],
+            "responses": [
+                "I can guide you through Common banking problems, Basic informations, person to be contacted and Department related queries",
+                "I can provide support related to following problems: Basic information about our bank, Common banking related questions (FAQs), and even some jokes for you! "
+            ]
+        },
+        {
+            "tag": "forgot_password",
+            "patterns": [
+                "I forgot my Login password?",
+                "what to do when someone forgets Login password?",
+                "I forgot my Laptop password",
+                "Forgot Wifi password",
+                "please reset my password"
+            ],
+            "responses": [
+                "Please enter your email id ,we will send a link on your email"
+            ]
+        },
+        {
+            "tag": "email_id",
+            "patterns": ["abx@gmail.com", "abc@bank.com"],
+            "responses": ["Link has been shared.Please change your password"]
+        },
+        {
+            "tag": "create_account",
+            "patterns": [
+                "how to create a new account",
+                "create new account",
+                "cretae new bank account",
+                "process to open an account",
+                "I want to open an account"
+            ],
+            "responses": [
+                "Out of Saveing Account, Current Account, Fixed Account, Recurring Deposit Account, What kind of account would you like to have?"
+            ]
+        },
+        {
+            "tag": "saveing_account",
+            "patterns": [
+                "savings account",
+                "i need to open a saveings account",
+                "like saveings account",
+                "what about savings account",
+                "tell me about savings account",
+                "why saveings accout"
+            ],
+            "responses": [
+                "Saving account are opened to encourage the people to save money & collect thier savings. You can be opened by depositing LKR. 1000.00. The interest rates vary as per the amount of money deposited in the saving bank account, scheme opted, and its maturity range."
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": ["how you doing?", "how are you", "Whats sub"],
+            "responses": ["Thanks For Asking! How can I help you?"]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "who are you?",
+                "what is your name?",
+                "your name",
+                "name of the bot",
+                "what should I call you?"
+            ],
+            "responses": [
+                "I'm Bluewhale",
+                "My Name is Bluewhale, the banking bot!",
+                "Bluewhale",
+                "Hi! I'm your banking friend Bluewhale :)"
+            ]
+        },
+        {
+            "tag": "opentoday",
+            "patterns": [
+                "Are you open today?",
+                "When do you open today?",
+                "What are your hours today?",
+                "banking hours"
+            ],
+            "responses": [
+                "We're open every day from 9am-9pm",
+                "Our hours are 9am-9pm every day"
+            ]
+        }
+    ]
+}
