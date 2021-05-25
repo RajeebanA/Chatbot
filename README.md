@@ -1,2 +1,2 @@
 # Chatbot
-A deep learning tensoflow based chatbot (demo)
+A deep learning TensorFlow based chatbot (demo)
